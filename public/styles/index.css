@@ -1,0 +1,38 @@
+body {
+    text-align: center;
+    width: 70%;
+    height: 70%;
+    margin: 100px auto;
+    font-family: 'Fredoka One', cursive;
+}
+
+h1 {
+    color: #EC994B;
+    font-family: 'Gloria Hallelujah', cursive;
+}
+
+p {
+    color: #F1EEE9;
+}
+
+.footer {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.75rem;
+    position:absolute;
+    bottom:0;
+    width:70%;
+    height:60px;   /* Height of the footer */
+}
+
+#current-time {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 2.5rem;
+}
+
+#current-date {
+    font-family: 'JetBrains Mono', monospace;
+}
+
+
+
+

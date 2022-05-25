@@ -1,0 +1,45 @@
+body {
+    text-align: center;
+    width: 70%;
+    height: 70%;
+    margin: 50px auto;
+    font-family: 'JetBrains Mono', monospace;
+    color: #EC994B;
+}
+
+h1 {
+    color: #EC994B;
+    font-family: 'Gloria Hallelujah', cursive;
+}
+
+p {
+    color: #F1EEE9;
+}
+
+.error-template {
+    padding: 40px 15px;
+    text-align: center;
+}
+
+.error-details {
+    margin: 50px auto;
+}
+
+.error-actions {
+    margin-top:15px;
+    margin-bottom:15px;
+}
+
+
+.error-actions .btn {
+    margin: auto;
+}
+
+.footer {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.75rem;
+    position:absolute;
+    bottom:0;
+    width:70%;
+    height:60px;   /* Height of the footer */
+}

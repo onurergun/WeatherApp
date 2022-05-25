@@ -1,0 +1,139 @@
+body {
+    background-color: black;
+    text-align: center;
+    margin: 100px auto;
+    font-family: 'Fredoka One', cursive;
+}
+
+h1 {
+    color: #EC994B;
+    font-family: 'Gloria Hallelujah', cursive;
+}
+
+p {
+    color: #EC994B;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 2.5rem;
+}
+
+footer p {
+    color: #F1EEE9;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.75rem;
+}
+
+#update-time, #time, #date {
+    color: #F1EEE9;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.75rem;
+}
+
+.footer {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.75rem;
+    position:absolute;
+    bottom:0;
+    width:100%;
+    height:60px;   /* Height of the footer */
+}
+
+.rainy {
+    background: url("/weather_cons/rainy/rainy2.jpg") no-repeat center center fixed;
+}
+
+.rainy h1 {
+    color: #EC994B;
+    font-size: 5rem;
+}
+
+.rainy h2, .rainy h3 {
+    color: #F1EEE9;
+}
+
+.snowy {
+    background: url("/weather_cons/snowy/snowy2.jpg") no-repeat center center fixed;
+}
+
+.snowy h1 {
+    color: #EC994B;
+    font-size: 5rem;
+}
+
+.windy {
+    background: url("/weather_cons/windy/windy4.jpg") no-repeat center center fixed;
+}
+
+.windy h1 {
+    color: #EC994B;
+    font-size: 5rem;
+}
+
+.cloudy {
+    background: url("/weather_cons/cloudy/cloudy.jpg") no-repeat center center fixed;
+}
+
+.cloudy h1 {
+    color: #EC994B;
+    font-size: 5rem;
+}
+
+.sunny {
+    background: url("/weather_cons/sunny/sunny3.jpg") no-repeat center center fixed;
+}
+
+.sunny h1 {
+    color: #EC994B;
+    font-size: 5rem;
+}
+
+.clear {
+    background: url("/weather_cons/clear/clear.jpg") no-repeat center center fixed;
+}
+
+.clear h1 {
+    color: #EC994B;
+    font-size: 5rem;
+}
+
+.thunderstorm {
+    background: url("/weather_cons/thunderstorm/thunderstorm3.jpg") no-repeat center center fixed;
+}
+
+.thunderstorm h1 {
+    color: #EC994B;
+    font-size: 5rem;
+}
+
+.drizzle {
+    background: url("/weather_cons/drizzle/drizzle.jpg") no-repeat center center fixed;
+}
+
+.drizzle h1 {
+    color: #EC994B;
+    font-size: 5rem;
+}
+
+.foggy {
+    background: url("/weather_cons/foggy/foggy.jpg") no-repeat center center fixed;
+}
+
+.foggy h1 {
+    color: #EC994B;
+    font-size: 5rem;
+}
+
+.tornado {
+    background: url("/weather_cons/tornado/tornado.jpg") no-repeat center center fixed;
+}
+
+.tornado h1 {
+    color: #EC994B;
+    font-size: 5rem;
+}
+
+.rainy, .snowy, .windy, .cloudy, .sunny, .clear, .thunderstorm, .drizzle, .foggy, .tornado {
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
