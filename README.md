@@ -3,7 +3,9 @@
 
 The Weather App web application uses the Open Weather Map API to serve weather condition information to clients for a given place.
 
-It is developed with NodeJs and the Express library. EJS view engine is used to serve views. 
+It is developed with *NodeJs* and the *Express* library. *EJS* view engine is used to serve views. 
+
+The pages are built with Bootstrap, and the modifications on pages are done with *JQuery*.
 
 Open Weather Map free API is preferred as a data source, and thanks to free limited access, only 60 calls are allowed for a minute. 
 
@@ -49,4 +51,8 @@ Example for running container:
 docker run --name <name> -p <host_port>:<container_app_port> -e PORT=<container_app_port> -e APIKEY=<open_weather_map_api_key> -d <image>
 ~~~
 
+# References
 
+All images that are used in the Weather App are from: https://unsplash.com/ 
+
+Also, some icons has been taken from: https://findicons.com/
