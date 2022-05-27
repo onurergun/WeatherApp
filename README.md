@@ -18,38 +18,64 @@ The application has two environment dependencies:
 
 The application also supports ***.env*** file to access for those environment variables programmatically. Placing an ***.env*** file at the root directory which contains the needed two keys is also preferable. 
 
+<br>
+<br>
+
+# Deployment
+
+- Deployed application can be accessed via Heroku by following the link below:
+
+  https://onurergun-weather-app.herokuapp.com/
+
+<br>
+<br>
+
 # Containerization
 
 An application can be containerized on Docker with a supplied Dockerfile. NodeJs-Alpine is used in the Docker image.
 
+<br>
 
 ## Building Docker Image
 
+<br>
+
 - Command for creating a Docker image:
+  
+    ~~~
+    docker build -t <tag>
+    ~~~
 
-~~~
-docker build -t <tag>
-~~~
+- Docker image also can be found on docker hub: 
+  https://hub.docker.com/repository/docker/onurergun/weather-app
 
-- Docker image also can be checked from docker hub: https://hub.docker.com/repository/docker/onurergun/weather-app
+<br>
 
 - Command to pull latest docker image:
-~~~
-docker pull onurergun/weather-app:latest
-~~~
+    ~~~
+    docker pull onurergun/weather-app:latest
+    ~~~
+
+<br>
 
 ## Running Container
 
-In order to create a properly running application in container, application needs two ENV variables:
+- In order to create a properly running application in container, application needs two ENV variables:
 
-- ***PORT***: Port number that application will listen to
-- ***APIKEY***: Open Weather Map API KEY to make queries for given location
+    ***PORT***: Port number that application will listen to
 
-Example for running container:
+    ***APIKEY***: Open Weather Map API KEY to make queries for given location
 
-~~~
-docker run --name <name> -p <host_port>:<container_app_port> -e PORT=<container_app_port> -e APIKEY=<open_weather_map_api_key> -d <image>
-~~~
+<br>
+
+- Example for running container:
+
+    ~~~
+    docker run --name <name> -p <host_port>:<container_app_port> -e PORT=<container_app_port> -e APIKEY=<open_weather_map_api_key> -d <image>
+    ~~~
+
+<br>
+<br>
 
 # References
 
