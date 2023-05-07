@@ -23,9 +23,9 @@ The application also supports ***.env*** file to access for those environment va
 
 # Deployment
 
-- Deployed application can be accessed via Heroku by following the link below:
+- Deployed application can be accessed by following the link below:
 
-  https://onurergun-weather-app.herokuapp.com/
+  [Weather App](https://onurergun-weather-app.onrender.com)
 
 <br>
 <br>
