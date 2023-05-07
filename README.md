@@ -25,7 +25,7 @@ The application also supports ***.env*** file to access for those environment va
 
 - Deployed application can be accessed by following the link below:
 
-  [Onur Ergun Weather App](https://onurergun-weather-app.onrender.com)
+  [Weather App](https://onurergun-weather-app.onrender.com)
 
 <br>
 <br>
